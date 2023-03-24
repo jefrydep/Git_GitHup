@@ -83,3 +83,12 @@ reword
 git checkout -- README.MD 
 ```
 
+
+## Git hup
+
+
+```
+
+git push -u origin master
+
+```
