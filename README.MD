@@ -3,8 +3,6 @@
 
 ### COMANDOS DE GIT
 
-
-
 ```
 git --version
 
@@ -21,9 +19,8 @@ git config core.autocrlf true (warnig CRLF)
 git checkout -- . (reconstruye los proyectos hasta el ultimo commit)
 git branch (ver las ramas)
 git config --global init.defaultBranch main(para cambiar la rama master por main de manera global)
-
-
-
+git commit -am "readme actualizado" (da seguimiento a los archivos añadidos)
+git log (para ver todos los commits)
 
 ```
 
