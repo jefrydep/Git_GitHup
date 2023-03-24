@@ -51,7 +51,10 @@ git config --global alias.lg "log --graph --abbrev-commit --decorate --format=fo
 ```
 git ckeckout -b "nombre dela rama"
 git branch
-git marge (nombre de la rama de donde se va hacer el merge)
+git merge (nombre de la rama de donde se va hacer el merge)
+git branch -d (eliminar las ramas que ya no necesitamos) -f
+git branch -a (para ver las ramas remotas)
+git remote prune origin(para elminar ramas del local)
 ```
 ## Tags
 
@@ -92,9 +95,20 @@ git checkout -- README.MD
 ## Git hup
 
 
-```
+```                                                                                                                                                                                                                                                                                                                                                                     
 git remote add origin "link"
 git push -u origin master
+git pull 
 
 
+
+```
+### Forks 
+
+
+* este comando nos sirven para crear un repositorio princi
+```
+git remote add upstream (aqui ponemos el link del respisitorio)
+git remote -v
+git pull upstream (nombre de la rama que deseas pulear)
 ```
