@@ -36,6 +36,9 @@ git reflog (muestra todos los comandos de git ulitlzados par volver en el tiempo
 git reset --hard (id del commit)
 git rm (nombre del archivo a elimianr)
 
+git pull
+git push
+
 
 ```
 1. para configurar nuestro alias de log
@@ -59,6 +62,8 @@ git tag -d (nombre del tag a eliminar)
 git tag -a v1.0.0 -m "new vwersion read"
 git tag -a v1.0.0 -m jf12kds "un tag con el id commit"
 git show v0.1.0 (para ver el tag)
+git push --tags (para subir los tags al repositorio)
+crear un release
 ```
 
 #### git Stash
@@ -90,5 +95,6 @@ git checkout -- README.MD
 ```
 git remote add origin "link"
 git push -u origin master
+
 
 ```
