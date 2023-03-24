@@ -46,4 +46,40 @@ git config --global alias.lg "log --graph --abbrev-commit --decorate --format=fo
 ## Trabajando con ramas en git
 
 ```
+git ckeckout -b "nombre dela rama"
+git branch
+git marge (nombre de la rama de donde se va hacer el merge)
 ```
+## Tags
+
+- hace referencia de un commit en un punto especifico y luego descargarlo 
+```
+git tag super-release
+git tag -d (nombre del tag a eliminar)
+git tag -a v1.0.0 -m "new vwersion read"
+git tag -a v1.0.0 -m jf12kds "un tag con el id commit"
+git show v0.1.0 (para ver el tag)
+```
+
+#### git Stash
+1. separa un espacio en memoria con todos los archivos 
+```
+git stash
+git stash list
+git stash drop 
+git stash show stash@{1}
+git stash save "aqui el nmbre del stash"
+git stash pop (recupera el ultimo stash y lo elimina)
+git stash clear 
+
+```
+##### Git rebase
+
+```
+git rebase main
+git rebase -i HEAD-4
+squash 
+reword
+git checkout -- README.MD 
+```
+
