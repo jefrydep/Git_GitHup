@@ -25,6 +25,16 @@ git reset (poner nombre de los archivos para bajarlos del stage)
 git add *.html (agrega todos los archivo html al stage del root)
 git add js/*.js (agrega todos las extensiones js de la carpeta js)   
 git add css/ (agrega todos los archivos que se encuentren dentro de css)
+git config --global alias.s "status --short"(para ponerle un alias a nuestro comando )
+git log --oneline
+
+ 
+
 
 ```
-
+1. para configurar nuestro alias de log
+```
+git config --global alias.lg "log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
+```
+git diff
+neuvo añadido
