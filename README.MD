@@ -34,11 +34,16 @@ git reset --soft (AQUI COLOCAMOS EL ID DEL COMMIT PARA MODIFICARLO)
 git reset --mixed (id del commit)
 git reflog (muestra todos los comandos de git ulitlzados par volver en el tiempo)
 git reset --hard (id del commit)
- 
+git rm (nombre del archivo a elimianr)
 
 
 ```
 1. para configurar nuestro alias de log
 ```
 git config --global alias.lg "log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
+```
+
+## Trabajando con ramas en git
+
+```
 ```
